@@ -38,6 +38,13 @@ imap jk <Esc>
 set cursorline
 
 " --------------------------------------------------------------------
+" vimwiki - http://www.vim.org/scripts/script.php?script_id=2226
+set nocompatible
+filetype plugin on
+" Open wiki index with <Leader>ww or <Leader>wt
+" http://stackoverflow.com/questions/1764263/what-is-the-leader-in-a-vimrc-file
+
+" --------------------------------------------------------------------
 " lots of relative line number stuff, taken from http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/
 set relativenumber
 function! NumberToggle()
