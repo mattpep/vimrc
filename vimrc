@@ -23,9 +23,29 @@ set hlsearch
 autocmd InsertEnter * :set nohlsearch "http://superuser.com/questions/156248/disable-set-hlsearch-when-i-enter-insert-mode
 autocmd InsertLeave * :set hlsearch
 
+" --------------------------------------------------------------------
 " avoid the escape key: http://vim.wikia.com/wiki/Avoid_the_escape_key
 imap jj <Esc>
 imap jk <Esc>
 
 
 set cursorline
+
+" --------------------------------------------------------------------
+" lots of relative line number stuff, taken from http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/
+set relativenumber
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
+
+nnoremap <C-n> :call NumberToggle()<cr>
+
+au FocusLost * :set number
+au FocusGained * :set relativenumber
+autocmd InsertEnter * :set number
+autocmd InsertLeave * :set relativenumber
+
