@@ -7,7 +7,9 @@ au BufRead,BufNewFile *.md set filetype=markdown
 set ts=2
 set shiftwidth=2
 set expandtab
-set colorcolumn=115
+if v:version >= 703
+  set colorcolumn=115
+endif
 hi ColorColumn guibg=#2d2d2d ctermbg=246
 
 " folding options
