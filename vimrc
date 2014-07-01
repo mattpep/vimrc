@@ -26,6 +26,10 @@ autocmd InsertEnter * :set nohlsearch "http://superuser.com/questions/156248/dis
 autocmd InsertLeave * :set hlsearch
 
 " --------------------------------------------------------------------
+" pathogen - http://www.vim.org/scripts/script.php?script_id=2332
+call pathogen#infect()
+
+" --------------------------------------------------------------------
 " avoid the escape key: http://vim.wikia.com/wiki/Avoid_the_escape_key
 imap jj <Esc>
 imap jk <Esc>
