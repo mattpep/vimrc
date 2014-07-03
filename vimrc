@@ -34,9 +34,6 @@ call pathogen#infect()
 imap jj <Esc>
 imap jk <Esc>
 
-
-set cursorline
-
 " --------------------------------------------------------------------
 " vimwiki - http://www.vim.org/scripts/script.php?script_id=2226
 set nocompatible
@@ -62,4 +59,11 @@ au FocusLost * :set number
 au FocusGained * :set relativenumber
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
+
+
+" --------------------------------------------------------------------
+"  misc settings
+set showmatch
+set showmode
+set cursorline
 
