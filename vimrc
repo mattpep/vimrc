@@ -67,3 +67,9 @@ set showmatch
 set showmode
 set cursorline
 
+map <F7> :tabp
+imap <F7> :tabp
+map <F8> :tabnew
+imap <F8> :tabnew
+map <F9> :tabn
+imap <F9> :tabn
