@@ -68,8 +68,9 @@ set showmode
 set cursorline
 
 map <F7> :tabp
-imap <F7> :tabp
+imap <F7> <Esc>:tabp
 map <F8> :tabnew
-imap <F8> :tabnew
+imap <F8> <Esc>:tabnew
 map <F9> :tabn
-imap <F9> :tabn
+imap <F9> <Esc>:tabn
+
