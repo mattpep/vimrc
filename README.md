@@ -5,8 +5,8 @@ This is probably the section you want. Use these steps to import this vim config
 * `cd .vim`
 * `git init`
 * `git remote add origin https://github.com/mattpep/vimrc.git`
-* `git pull`
-* cd ..
+* `git pull origin master`
+* `cd ..`
 * `ln -sf .vim/vimrc .vimrc`
 * Optionally add your previous saved config: `cat ~/.vimrc-save >> ~/.vimrc`
 
