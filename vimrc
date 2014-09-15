@@ -24,6 +24,9 @@ set incsearch
 set hlsearch
 autocmd InsertEnter * :set nohlsearch "http://superuser.com/questions/156248/disable-set-hlsearch-when-i-enter-insert-mode
 autocmd InsertLeave * :set hlsearch
+" http://tilvim.com/2013/08/22/clearing-search-highlights.html
+" clear the search buffer when hitting return
+:nnoremap <CR> :nohlsearch<cr>
 
 " --------------------------------------------------------------------
 " pathogen - http://www.vim.org/scripts/script.php?script_id=2332
