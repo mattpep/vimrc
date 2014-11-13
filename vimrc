@@ -82,3 +82,4 @@ imap <F8> <Esc>:tabnew
 map <F9> :tabn
 imap <F9> <Esc>:tabn
 
+command W w " I sometimes mistype :w as :W
