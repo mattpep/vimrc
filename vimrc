@@ -85,3 +85,5 @@ map <F9> :tabn
 imap <F9> <Esc>:tabn
 
 command W w " I sometimes mistype :w as :W
+" Reload our .vimrc
+nmap <leader>~ :source ~/.vimrc<CR>:redraw!<CR>:AirlineRefresh<CR>:echo "~/.vimrc reloaded!"<CR>
