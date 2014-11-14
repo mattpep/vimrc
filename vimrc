@@ -78,11 +78,11 @@ set showmode
 set cursorline
 
 map <F7> :tabp
-imap <F7> <Esc>:tabp
+imap <F7> <c-o>:tabp
 map <F8> :tabnew
-imap <F8> <Esc>:tabnew
+imap <F8> <c-o>:tabnew
 map <F9> :tabn
-imap <F9> <Esc>:tabn
+imap <F9> <c-o>:tabn
 
 command W w " I sometimes mistype :w as :W
 
