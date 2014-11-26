@@ -1,18 +1,26 @@
 # Importing
-This is probably the section you want. Use these steps to import this vim config
+If you're going to use this repo for your own vim environment then this is probably the section you want.
+
 * Optionally, save your existing .vimrc: `cp .vimrc{,-save}`
 * `mkdir .vim`
 * `cd .vim`
 * `git init`
 * `git remote add origin https://github.com/mattpep/vimrc.git`
 * `git pull origin master`
+* `git submodule update`
 * `cd ..`
 * `ln -sf .vim/vimrc .vimrc`
 * Optionally add your previous saved config: `cat ~/.vimrc-save >> ~/.vimrc`
 
+# Staying up to date
+Because I use git submodules, you might run into a situation where you need to update one of the submodules
+which I haven't yet myself updated.
+* `git submodule update` to update all of them
+* `cd bundle/pluginname && git pull origin master` to update one of them
+
 # Initial setup
-These are the steps I used to create the initial setup of a git-managed vim config. If you're going to use this
-config for your vim environment then you need the section above instead (titled _Importing_)
+These are the steps I used to create the initial setup of a git-managed vim config. You can use these if you want to
+track your own vim config but don't want to use mine as a starting point.
 
 * `cd .vim`
 * `mv ../.vimrc vimrc`
