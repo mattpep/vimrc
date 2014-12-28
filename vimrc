@@ -1,7 +1,7 @@
 " syntax highlighting options
-colo desert
-syn on
-au BufRead,BufNewFile *.md set filetype=markdown
+colorscheme desert
+syntax on
+autocmd BufRead,BufNewFile *.md set filetype=markdown
 
 " code consistency / quality
 set ts=2
@@ -10,7 +10,7 @@ set expandtab
 if v:version >= 703
   set colorcolumn=115
 endif
-hi ColorColumn guibg=#2d2d2d ctermbg=246
+highlight ColorColumn guibg=#2d2d2d ctermbg=246
 
 " folding options
 set foldlevel=20
@@ -60,8 +60,8 @@ if v:version >= 703
 endif
 nnoremap <C-n> :call NumberToggle()<cr>
 
-au FocusLost * :set number
-au FocusGained * :set relativenumber
+autocmd FocusLost * :set number
+autocmd FocusGained * :set relativenumber
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 
