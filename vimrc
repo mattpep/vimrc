@@ -57,13 +57,15 @@ if v:version >= 703
       set relativenumber
     endif
   endfunc
+  autocmd FocusLost * :set number
+  autocmd FocusGained * :set relativenumber
+  autocmd InsertEnter * :set number
+  autocmd InsertLeave * :set relativenumber
+else
+  autocmd FocusLost * :set number
+  autocmd InsertEnter * :set number
 endif
 nnoremap <C-n> :call NumberToggle()<cr>
-
-autocmd FocusLost * :set number
-autocmd FocusGained * :set relativenumber
-autocmd InsertEnter * :set number
-autocmd InsertLeave * :set relativenumber
 
 " RSpec.vim mappings: https://github.com/thoughtbot/vim-rspec
 map <Leader>t :call RunCurrentSpecFile()<CR>
