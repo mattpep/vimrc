@@ -33,9 +33,6 @@ autocmd InsertLeave * :set hlsearch
 call pathogen#infect()
 
 " --------------------------------------------------------------------
-" avoid the escape key: http://vim.wikia.com/wiki/Avoid_the_escape_key
-imap jj <Esc>
-imap jk <Esc>
 " Emacs-like beginning and end of line.
 imap <c-e> <c-o>$
 imap <c-a> <c-o>^
