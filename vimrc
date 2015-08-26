@@ -75,6 +75,9 @@ map <Leader>a :call RunAllSpecs()<CR>
 set showmatch
 set showmode
 set cursorline
+set ruler
+set showcmd
+set noswapfile
 
 map <F7> :tabp
 imap <F7> <c-o>:tabp
