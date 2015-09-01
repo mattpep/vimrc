@@ -16,3 +16,6 @@
 [submodule "bundle/vimwiki"]
 	path = bundle/vimwiki
 	url = git@github.com:vimwiki/vimwiki.git
+[submodule "bundle/ack"]
+	path = bundle/ack
+	url = https://github.com/mileszs/ack.vim.git
