@@ -3,6 +3,10 @@ colorscheme desert
 syntax on
 autocmd BufRead,BufNewFile *.md set filetype=markdown
 
+" set the title for mac terminal tabs
+autocmd BufEnter * let &titlestring = expand("%:@")
+set title
+
 " code consistency / quality
 set ts=2
 set shiftwidth=2
