@@ -1,5 +1,5 @@
 " syntax highlighting options
-colorscheme desert
+colorscheme elflord
 syntax on
 autocmd BufRead,BufNewFile *.md set filetype=markdown
 
