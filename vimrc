@@ -96,6 +96,7 @@ command W w " I sometimes mistype :w as :W
 " some ruby niceties
 " Insert the Ruby hashrocket with CTRL+l
 imap <c-l> <space>=><space>
+map <Leader>r :! rubocop %<CR>
 
 " Reload our .vimrc
 nmap <leader>~ :source ~/.vimrc<CR>:redraw!<CR>:AirlineRefresh<CR>:echo "~/.vimrc reloaded!"<CR>
