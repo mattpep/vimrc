@@ -19,3 +19,6 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "troll-stopper"]
+	path = bundle/vim-troll-stopper
+	url = git@github.com:vim-utils/vim-troll-stopper.git
