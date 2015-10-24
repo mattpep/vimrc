@@ -11,7 +11,7 @@ if exists("g:rspec_command")
     let s:rspec_command = g:rspec_command
   endif
 else
-  let s:cmd = "rspec {spec}"
+  let s:cmd = "bundle exec rspec {spec}"
 
   if has("gui_running") && has("gui_macvim")
     let s:rspec_command = "silent !" . s:plugin_path . "/bin/" . g:rspec_runner . " '" . s:cmd . "'"
