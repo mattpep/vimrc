@@ -6,6 +6,7 @@ match ExtraWhitespace /\s\+$\| \+\ze\t/
 colorscheme elflord
 syntax on
 autocmd BufRead,BufNewFile *.md set filetype=markdown
+autocmd BufRead,BufNewFile *.sls set filetype=yaml
 
 " set the title for mac terminal tabs
 autocmd BufEnter * let &titlestring = expand("%:@")
