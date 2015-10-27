@@ -1,3 +1,7 @@
+" show trailing whitespace - taken from http://vim.wikia.com/wiki/Highlight_unwanted_spaces
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=darkgreen guibg=lightgreen
+highlight ExtraWhitespace ctermbg=darkgreen guibg=lightgreen
+match ExtraWhitespace /\s\+$\| \+\ze\t/
 " syntax highlighting options
 colorscheme elflord
 syntax on
