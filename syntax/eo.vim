@@ -23,6 +23,8 @@ syn match       verb		"[ĉŝĥĵĝŭA-za-z]*is "
 syn match       verb		"[ĉŝĥĵĝŭA-za-z]*us "
 syn match       verb		"[ĉŝĥĵĝŭA-za-z]*i "
 
+syn match       adverb		"[ĉŝĥĵĝŭA-za-z]*aŭ "
+syn match       adverb		"[ĉŝĥĵĝŭA-za-z]*e "
 
 syn match       pron		"vi "
 syn match       pron		"vin "
@@ -46,6 +48,7 @@ syn match       pron		"ŝlin "
 hi def link adjective		Statement
 hi def link noun		Type
 hi def link verb		PreProc
+hi def link adverb		Comment
 hi def link pron		Float
 
 
