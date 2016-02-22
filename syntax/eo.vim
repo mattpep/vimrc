@@ -8,20 +8,20 @@ if exists("b:current_syntax")
 endif
 
 syn case ignore
-syn match       adjective      	"[A-za-z]*a "
-syn match       adjective      	"[A-za-z]*aj "
-syn match       adjective      	"[A-za-z]*an "
-syn match       adjective      	"[A-za-z]*ajn "
-syn match       noun      	"[A-za-z]*ojn "
-syn match       noun      	"[A-za-z]*on "
-syn match       noun      	"[A-za-z]*oj "
-syn match       noun      	"[A-za-z]*o "
+syn match       adjective      	"[ĉŝĥĵĝŭA-za-z]*a "
+syn match       adjective      	"[ĉŝĥĵĝŭA-za-z]*aj "
+syn match       adjective      	"[ĉŝĥĵĝŭA-za-z]*an "
+syn match       adjective      	"[ĉŝĥĵĝŭA-za-z]*ajn "
+syn match       noun      	"[ĉŝĥĵĝŭA-za-z]*ojn "
+syn match       noun      	"[ĉŝĥĵĝŭA-za-z]*on "
+syn match       noun      	"[ĉŝĥĵĝŭA-za-z]*oj "
+syn match       noun      	"[ĉŝĥĵĝŭA-za-z]*o "
 
-syn match       verb		"[A-za-z]*as "
-syn match       verb		"[A-za-z]*os "
-syn match       verb		"[A-za-z]*is "
-syn match       verb		"[A-za-z]*us "
-syn match       verb		"[A-za-z]*i "
+syn match       verb		"[ĉŝĥĵĝŭA-za-z]*as "
+syn match       verb		"[ĉŝĥĵĝŭA-za-z]*os "
+syn match       verb		"[ĉŝĥĵĝŭA-za-z]*is "
+syn match       verb		"[ĉŝĥĵĝŭA-za-z]*us "
+syn match       verb		"[ĉŝĥĵĝŭA-za-z]*i "
 
 
 syn match       pron		"vi "
