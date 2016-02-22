@@ -30,8 +30,18 @@ syn match       pron		"mi "
 syn match       pron		"min "
 syn match       pron		"li "
 syn match       pron		"lin "
+syn match       pron		"ni "
+syn match       pron		"nin "
 syn match       pron		"si "
 syn match       pron		"sin "
+syn match       pron		"ri "
+syn match       pron		"rin "
+syn match       pron		"ĝi "
+syn match       pron		"ĝin "
+syn match       pron		"ŝi "
+syn match       pron		"ŝin "
+syn match       pron		"ŝli "
+syn match       pron		"ŝlin "
 
 hi def link adjective		Statement
 hi def link noun		Type
