@@ -16,8 +16,8 @@ set title
 set ts=2
 set shiftwidth=2
 set expandtab
-if v:version >= 703
-  set colorcolumn=115
+if v:version >= 702
+  call matchadd('ColorColumn', '\%115v', 100)
 endif
 highlight ColorColumn guibg=#2d2d2d ctermbg=246
 
