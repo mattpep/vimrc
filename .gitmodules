@@ -25,3 +25,6 @@
 [submodule "bundle/dockerfile"]
 	path = bundle/dockerfile
 	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
