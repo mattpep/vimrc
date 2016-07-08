@@ -13,9 +13,6 @@ autocmd BufEnter * let &titlestring = expand("%:@")
 set title
 
 " code consistency / quality
-set ts=2
-set shiftwidth=2
-set expandtab
 if v:version >= 702
   call matchadd('ColorColumn', '\%115v', 100)
 endif
