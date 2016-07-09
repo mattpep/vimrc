@@ -17,7 +17,7 @@ If you're going to use this repo for your own vim environment then this is proba
 Do this:
 `git submodule update --init` to update all of them, and add any new ones since your last update
 
-## With one or more sugbmodules
+## With one or more submodules
 Because I use git submodules, you might run into a situation where you need to update one of the submodules
 which I haven't yet myself updated.
 * `git submodule update` to update all of them
