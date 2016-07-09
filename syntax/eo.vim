@@ -47,11 +47,14 @@ syn match       pron		"ŝin "
 syn match       pron		"ŝli "
 syn match       pron		"ŝlin "
 
+syn match       xword   "kaj "
+
+hi def link adverb		Comment
 hi def link adjective		Statement
 hi def link noun		Type
 hi def link verb		PreProc
-hi def link adverb		Comment
 hi def link pron		Float
+hi def link xword		Constant
 
 
 " Need to sync on the header. Assume we can do that within 100 lines
