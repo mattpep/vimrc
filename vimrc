@@ -49,6 +49,7 @@ filetype plugin on
 " Open wiki index with <Leader>ww or <Leader>wt
 " http://stackoverflow.com/questions/1764263/what-is-the-leader-in-a-vimrc-file
 
+let g:vimwiki_url_maxsave=0
 " --------------------------------------------------------------------
 " lots of relative line number stuff, taken from http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/
 if v:version >= 703
