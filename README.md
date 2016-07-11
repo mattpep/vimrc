@@ -20,7 +20,7 @@ Do this:
 ## With one or more submodules
 Because I use git submodules, you might run into a situation where you need to update one of the submodules
 which I haven't yet myself updated.
-* `git submodule update` to update all of them
+* `git submodule foreach git pull` to update all of them
 * `cd bundle/pluginname && git pull origin master` to update one of them
 
 # Initial setup
