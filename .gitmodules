@@ -40,3 +40,6 @@
 [submodule "bundle/vim-textobj-rubyblock"]
 	path = bundle/vim-textobj-rubyblock
 	url = git@github.com:nelstrom/vim-textobj-rubyblock.git
+[submodule "bundle/semantic-highlight"]
+	path = bundle/semantic-highlight
+	url = https://github.com/jaxbot/semantic-highlight.vim.git

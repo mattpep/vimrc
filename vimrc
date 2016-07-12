@@ -102,6 +102,7 @@ imap <c-l> <space>=><space>
 map <Leader>r :! rubocop %<CR>
 
 runtime macros/matchit.vim
+nnoremap <Leader>h :SemanticHighlightToggle<cr>
 
 " Reload our .vimrc
 nmap <leader>~ :source ~/.vimrc<CR>:redraw!<CR>:AirlineRefresh<CR>:echo "~/.vimrc reloaded!"<CR>
