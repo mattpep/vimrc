@@ -103,7 +103,7 @@ map <Leader>r :! rubocop %<CR>
 
 runtime macros/matchit.vim
 
-let g:semanticTermColors = [28,1,2,3,4,5,6,7,25,9,10,34,12,13,14,15,16,125,124,19]
+let g:semanticTermColors = [28,1,2,3,4,5,6,8,25,9,10,34,12,13,14,15,16,125,124,19]
 nnoremap <Leader>h :SemanticHighlightToggle<cr>
 
 " Reload our .vimrc
