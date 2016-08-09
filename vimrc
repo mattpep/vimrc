@@ -109,3 +109,6 @@ nmap <leader>~ :source ~/.vimrc<CR>:redraw!<CR>:AirlineRefresh<CR>:echo "~/.vimr
 
 " always show the airline statusbar
 set laststatus=2
+
+map y <Plug>(highlightedyank)
+let g:highlightedyank_highlight_duration = 1200
