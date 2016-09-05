@@ -46,3 +46,6 @@
 [submodule "bundle/presenting.vim"]
 	path = bundle/presenting.vim
 	url = git@github.com:sotte/presenting.vim.git
+[submodule "bundle/vim-peekaboo"]
+	path = bundle/vim-peekaboo
+	url = https://github.com/junegunn/vim-peekaboo.git
