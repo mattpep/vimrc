@@ -45,7 +45,7 @@ imap <c-a> <c-o>^
 " --------------------------------------------------------------------
 " vimwiki - http://www.vim.org/scripts/script.php?script_id=2226
 set nocompatible
-filetype plugin on
+filetype plugin indent on
 " Open wiki index with <Leader>ww or <Leader>wt
 " http://stackoverflow.com/questions/1764263/what-is-the-leader-in-a-vimrc-file
 
