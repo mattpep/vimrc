@@ -106,3 +106,6 @@ nnoremap <Leader>h :SemanticHighlightToggle<cr>
 
 " Reload our .vimrc
 nmap <leader>~ :source ~/.vimrc<CR>:redraw!<CR>:AirlineRefresh<CR>:echo "~/.vimrc reloaded!"<CR>
+
+" always show the airline statusbar
+set laststatus=2
