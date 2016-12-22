@@ -112,3 +112,8 @@ set laststatus=2
 
 map y <Plug>(highlightedyank)
 let g:highlightedyank_highlight_duration = 1200
+
+" https://twitter.com/MasteringVim/status/811868588785143808
+" J/K will move selected block up/down in Visual block mode.
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
