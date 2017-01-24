@@ -58,3 +58,6 @@
 [submodule "bundle/highlightedyank"]
 	path = bundle/highlightedyank
 	url = https://github.com/machakann/vim-highlightedyank.git
+[submodule "ansible-vim"]
+	path = bundle/ansible-vim
+	url = https://github.com/pearofducks/ansible-vim
