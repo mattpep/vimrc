@@ -120,3 +120,5 @@ let g:highlightedyank_highlight_duration = 1200
 " J/K will move selected block up/down in Visual block mode.
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
+
+set modelines=5
