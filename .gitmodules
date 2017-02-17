@@ -61,3 +61,6 @@
 [submodule "ansible-vim"]
 	path = bundle/ansible-vim
 	url = https://github.com/pearofducks/ansible-vim
+[submodule "bundle/vim-startify"]
+	path = bundle/vim-startify
+	url = https://github.com/mhinz/vim-startify.git
