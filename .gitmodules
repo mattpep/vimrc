@@ -1,27 +1,27 @@
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
-	url = git@github.com:elzr/vim-json.git
+	url = https://github.com/elzr/vim-json.git
 [submodule "bundle/vim-characterize"]
 	path = bundle/vim-characterize
 	url = git://github.com/tpope/vim-characterize.git
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
-	url = git@github.com:airblade/vim-gitgutter.git
+	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
-	url = git@github.com:fatih/vim-go.git
+	url = https://github.com/fatih/vim-go.git
 [submodule "bundle/vimwiki"]
 	path = bundle/vimwiki
-	url = git@github.com:vimwiki/vimwiki.git
+	url = https://github.com/vimwiki/vimwiki.git
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/mileszs/ack.vim.git
 [submodule "troll-stopper"]
 	path = bundle/vim-troll-stopper
-	url = git@github.com:vim-utils/vim-troll-stopper.git
+	url = https://github.com/vim-utils/vim-troll-stopper.git
 [submodule "bundle/dockerfile"]
 	path = bundle/dockerfile
 	url = https://github.com/ekalinin/Dockerfile.vim.git
@@ -36,16 +36,16 @@
 	url = git://github.com/tpope/vim-commentary.git
 [submodule "bundle/vim-textobj-user"]
 	path = bundle/vim-textobj-user
-	url = git@github.com:kana/vim-textobj-user.git
+	url = https://github.com/kana/vim-textobj-user.git
 [submodule "bundle/vim-textobj-rubyblock"]
 	path = bundle/vim-textobj-rubyblock
-	url = git@github.com:nelstrom/vim-textobj-rubyblock.git
+	url = https://github.com/nelstrom/vim-textobj-rubyblock.git
 [submodule "bundle/semantic-highlight"]
 	path = bundle/semantic-highlight
 	url = https://github.com/jaxbot/semantic-highlight.vim.git
 [submodule "bundle/presenting.vim"]
 	path = bundle/presenting.vim
-	url = git@github.com:sotte/presenting.vim.git
+	url = https://github.com/sotte/presenting.vim.git
 [submodule "bundle/vim-peekaboo"]
 	path = bundle/vim-peekaboo
 	url = https://github.com/junegunn/vim-peekaboo.git
