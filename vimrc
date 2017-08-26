@@ -122,3 +122,7 @@ vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 
 set modelines=5
+
+" https://jovicailic.org/2015/05/saving-read-only-files-in-vim-sudo-trick/
+" make an alias for the sudo tee trick
+cmap w!! w !sudo tee % >/dev/null
