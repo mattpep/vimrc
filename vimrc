@@ -121,6 +121,10 @@ let g:highlightedyank_highlight_duration = 1200
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 
+" https://twitter.com/csswizardry/status/903244333687721988
+" Give some scaffolding to new files of specified types
+autocmd BufNewFile *.sh 0r ~/.vim/templates/template.sh
+
 set modelines=5
 
 " https://jovicailic.org/2015/05/saving-read-only-files-in-vim-sudo-trick/
