@@ -130,3 +130,11 @@ set modelines=5
 " https://jovicailic.org/2015/05/saving-read-only-files-in-vim-sudo-trick/
 " make an alias for the sudo tee trick
 cmap w!! w !sudo tee % >/dev/null
+
+" https://twitter.com/jesstelford/status/992756386160234497
+highlight badWords ctermbg=red ctermfg=white
+fun! HiBadWords()
+	match badWords /\c\<\(obviously\|basically\|simply\|of\scourse\|clearly\|just\|everyone\sknows\|however\|so,\|easy\)\>/
+endfun
+autocmd InsertEnter *.md call HiBadWords()
+autocmd InsertLeave *.md call HiBadWords()
