@@ -7,6 +7,7 @@ If you're going to use this repo for your own vim environment then this is proba
 * `git init`
 * `git remote add origin https://github.com/mattpep/vimrc.git`
 * `git pull origin master`
+* `git submodule init`
 * `git submodule update`
 * `cd ..`
 * `ln -sf .vim/vimrc .vimrc`
@@ -32,6 +33,6 @@ track your own vim config but don't want to use mine as a starting point.
 * `git init`
 * `git add *`
 * `git commit -m "First commit"`
-* `git remote add origin https://github.com/username/vimconfig.git`
+* `git remote add origin git@github.com:mattpep/vimrc.git
 * `git push origin master`
 * `ln -s vimrc ../.vimrc`
