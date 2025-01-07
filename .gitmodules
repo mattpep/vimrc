@@ -3,7 +3,7 @@
 	url = https://github.com/elzr/vim-json.git
 [submodule "bundle/vim-characterize"]
 	path = bundle/vim-characterize
-	url = git://github.com/tpope/vim-characterize.git
+	url = https://github.com/tpope/vim-characterize.git
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
@@ -27,13 +27,13 @@
 	url = https://github.com/ekalinin/Dockerfile.vim.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/vim-sort-motion"]
 	path = bundle/vim-sort-motion
-	url = git://github.com/christoomey/vim-sort-motion
+	url = https://github.com/christoomey/vim-sort-motion
 [submodule "bundle/vim-commentary"]
 	path = bundle/vim-commentary
-	url = git://github.com/tpope/vim-commentary.git
+	url = https://github.com/tpope/vim-commentary.git
 [submodule "bundle/vim-textobj-user"]
 	path = bundle/vim-textobj-user
 	url = https://github.com/kana/vim-textobj-user.git
