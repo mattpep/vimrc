@@ -138,3 +138,4 @@ fun! HiBadWords()
 endfun
 autocmd InsertEnter *.md call HiBadWords()
 autocmd InsertLeave *.md call HiBadWords()
+autocmd BufRead,BufNewFile *.tf set filetype=tf
